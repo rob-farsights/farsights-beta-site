@@ -3,265 +3,89 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Farsights.ai — CAI private beta</title>
-  <meta name="description" content="Farsights.ai builds AI-powered advisory products and services. Request private beta access to CAI, a persistent advisory platform for business leaders and consulting professionals." />
+  <title>Farsights.ai — CAI Private Beta</title>
+  <meta name="description" content="CAI is a persistent AI advisory platform for consulting professionals and business leaders. Request private beta access from Farsights.ai." />
   <meta name="theme-color" content="#071012" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="./styles.css" />
 </head>
 <body>
   <header class="site-header" id="top">
-    <a class="brand" href="#top" aria-label="Farsights.ai home">
-      <span class="brand-mark" aria-hidden="true"></span>
-      <span>farsights.ai</span>
-    </a>
+    <a class="brand" href="#top" aria-label="Farsights.ai home"><span class="brand-mark" aria-hidden="true"></span><span>farsights.ai</span></a>
     <nav class="nav" aria-label="Primary navigation">
-      <a href="#cai">CAI</a>
-      <a href="#beta">Private beta</a>
-      <a href="#about">About</a>
-      <a class="nav-cta" href="#apply">Request access</a>
+      <a href="#cai">CAI</a><a href="#outputs">Sample outputs</a><a href="#beta">Private beta</a><a href="#about">About</a><a class="nav-cta" href="#apply">Request access</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero section-dark">
-      <div class="hero-art" aria-hidden="true"></div>
-      <div class="hero-glow" aria-hidden="true"></div>
-      <div class="hero-content shell reveal">
-        <p class="eyebrow">Private beta · CAI</p>
-        <h1>Business advice that gets smarter as it gets to know your business.</h1>
-        <p class="hero-copy">CAI brings your business context, decisions and history together over time, then uses the right AI behind the scenes to help you move forward with greater clarity and continuity.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#apply">Request beta access</a>
-          <a class="button button-ghost" href="#what-you-get">See what you get</a>
-        </div>
-        <p class="microcopy">A small number of beta participants will be selected. Applying does not guarantee access.</p>
+    <section class="hero">
+      <div class="hero-art" aria-hidden="true"></div><div class="hero-overlay" aria-hidden="true"></div>
+      <div class="shell hero-content reveal">
+        <p class="eyebrow">CAI · Private beta</p>
+        <h1>An AI advisor that gets better as it gets to know the business.</h1>
+        <p class="hero-copy">CAI builds a persistent, curated understanding of a business — then uses the right AI behind the scenes to support strategy, planning and consequential decisions over time.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#apply">Request beta access</a><a class="button button-ghost" href="#outputs">See sample outputs</a></div>
+        <div class="hero-audience"><span>Built for consulting professionals</span><span class="dot"></span><span>Also for business leaders</span></div>
       </div>
     </section>
 
-    <section class="section section-light intro" id="cai">
-      <div class="shell split reveal">
-        <div>
-          <p class="eyebrow dark">Persistent advisory, not one-off AI</p>
-          <h2>Your business context should compound.</h2>
-        </div>
-        <div class="prose">
-          <p>Most AI interactions begin with the same problem: you have to explain the situation again. CAI is designed differently.</p>
-          <p>As you share business information, data, decisions and progress, CAI builds a structured, curated understanding of the business. That context can carry forward across everyday planning, major strategic choices and future engagements.</p>
+    <section class="section section-light" id="cai"><div class="shell split reveal">
+      <div><p class="eyebrow dark">Persistent advisory, not one-off AI</p><h2>Your business context should compound.</h2></div>
+      <div class="prose"><p>Most AI interactions begin by making you explain the situation again. CAI is designed so the useful context survives the conversation.</p><p>As you share business information, decisions, prior work and progress, CAI curates what matters into a durable understanding that can be used again — tomorrow, next quarter, or on the next client engagement.</p></div>
+    </div></section>
+
+    <section class="section output-section" id="outputs"><div class="shell reveal">
+      <div class="output-heading"><div><p class="eyebrow">See what CAI produces</p><h2>Decision-ready work, not just another chat transcript.</h2></div><p>CAI turns a persistent fact base into recommendations, decision support and polished leadership materials. These are real CAI outputs for the fictional demo customer Hudson Tri-State Auto Parts.</p></div>
+      <div class="output-showcase">
+        <button class="sample sample-featured" data-img="./assets/board.jpg" data-title="Board Recommendation" aria-label="Open Board Recommendation sample output"><span class="sample-frame"><img src="./assets/board.jpg" alt="CAI sample board recommendation for Hudson Tri-State Auto Parts" /></span><span class="sample-meta"><strong>Board Recommendation</strong><small>Sample demo output · Hudson Tri-State Auto Parts</small></span></button>
+        <div class="sample-stack">
+          <button class="sample" data-img="./assets/memo.jpg" data-title="Commercial Sequencing Decision Memo" aria-label="Open Decision Memo sample output"><span class="sample-frame"><img src="./assets/memo.jpg" alt="CAI sample commercial sequencing decision memo" /></span><span class="sample-meta"><strong>Decision Memo</strong><small>Rationale, binding criteria and linked decision</small></span></button>
+          <button class="sample" data-img="./assets/tech.jpg" data-title="Technology Landscape" aria-label="Open Technology Landscape sample output"><span class="sample-frame"><img src="./assets/tech.jpg" alt="CAI sample technology landscape" /></span><span class="sample-meta"><strong>Technology Landscape</strong><small>Structured view of the current-state environment</small></span></button>
         </div>
       </div>
-    </section>
+      <div class="output-note"><span class="output-note-kicker">The point</span><strong>The AI stays behind the work.</strong><p>Advisors and leaders get useful analysis and polished materials without having to become prompt engineers or manage a patchwork of AI tools.</p></div>
+    </div></section>
 
-    <section class="section growth-section">
-      <div class="shell reveal">
-        <div class="section-heading narrow">
-          <p class="eyebrow">The idea behind CAI</p>
-          <h2>Understanding grows. So does the value you can draw from it.</h2>
-          <p>You can start with a conversation, a few files or an existing business challenge. Over time, CAI's understanding deepens — creating a stronger foundation for insight, recommendations, strategy and communication.</p>
-        </div>
-
-        <div class="growth-grid" aria-label="How CAI grows with your business">
-          <article class="growth-card">
-            <span class="growth-number">01</span>
-            <h3>Share context</h3>
-            <p>Conversations, business data, plans, prior work and external research.</p>
-          </article>
-          <article class="growth-card">
-            <span class="growth-number">02</span>
-            <h3>Build understanding</h3>
-            <p>CAI organizes what matters and carries forward a persistent view of the business.</p>
-          </article>
-          <article class="growth-card">
-            <span class="growth-number">03</span>
-            <h3>Work through decisions</h3>
-            <p>Use that context for strategic choices, planning questions and changing business conditions.</p>
-          </article>
-          <article class="growth-card accent-card">
-            <span class="growth-number">04</span>
-            <h3>Turn context into value</h3>
-            <p>Recommendations, strategies, action plans and professional materials that help people align and move.</p>
-          </article>
-        </div>
+    <section class="section section-light differentiation"><div class="shell reveal">
+      <div class="section-heading narrow"><p class="eyebrow dark">Why CAI instead of just ChatGPT or Claude?</p><h2>Continuity in front. Complexity hidden behind it.</h2></div>
+      <div class="difference-grid">
+        <article class="difference-card light-card"><span class="difference-index">01</span><h3>Context that compounds</h3><p>CAI does not depend on a single chat thread. It curates important business knowledge into durable structures — data, history, decisions, initiatives and prior work — so each new question begins from a stronger base.</p></article>
+        <article class="difference-card light-card"><span class="difference-index">02</span><h3>AI complexity handled for you</h3><p>Models, research tools, deterministic logic and publishing systems can work behind the scenes. You focus on the business problem, not which platform to use or whether your prompt is clever enough.</p></article>
       </div>
-    </section>
+    </div></section>
 
-    <section class="section section-light" id="what-you-get">
-      <div class="shell reveal">
-        <div class="section-heading">
-          <p class="eyebrow dark">What you get</p>
-          <h2>Guidance for the decisions that matter — and the materials to help act on it.</h2>
-          <p>CAI does not run your business for you. It helps leadership teams and advisors think more clearly, evaluate choices and turn the result into useful planning and communication.</p>
-        </div>
+    <section class="section process-section"><div class="shell reveal">
+      <div class="section-heading narrow"><p class="eyebrow">How the value grows</p><h2>Share context. Build understanding. Draw better advice from it.</h2></div>
+      <div class="process-row"><article><span>01</span><h3>Bring the business in</h3><p>Conversations, documents, data, prior work and external research.</p></article><article><span>02</span><h3>Curate what matters</h3><p>CAI builds and maintains a structured view of the business rather than simply storing a pile of files.</p></article><article><span>03</span><h3>Use it repeatedly</h3><p>Return for strategic choices, planning questions, client work and follow-through without starting over.</p></article></div>
+    </div></section>
 
-        <div class="outcome-grid">
-          <article>
-            <h3>Strategic recommendations</h3>
-            <p>Explore how to grow, respond to competition, adopt AI, manage risk or change direction as conditions evolve.</p>
-          </article>
-          <article>
-            <h3>Decision support</h3>
-            <p>Work through concrete questions such as expansion, capital investment, fleet or facility decisions, operating-model changes and regulatory response.</p>
-          </article>
-          <article>
-            <h3>Planning and follow-through</h3>
-            <p>Translate direction into meaningful plans, revisit progress and get guidance when execution stalls or new information changes the picture.</p>
-          </article>
-          <article>
-            <h3>Executive-ready materials</h3>
-            <p>Produce thoughtful, professional presentations and other advisory materials for leadership teams, boards, investors and stakeholders.</p>
-          </article>
-        </div>
+    <section class="section section-light audience-section"><div class="shell reveal">
+      <div class="section-heading"><p class="eyebrow dark">Two ways to use CAI</p><h2>A persistent sidecar for the consultant. A persistent advisor for the business.</h2></div>
+      <div class="audience-grid">
+        <article class="audience-card primary-audience"><span class="audience-label">Consulting professionals</span><h3>Deliver more without building your own AI platform.</h3><p>Use CAI to accelerate analysis, preserve client context between engagements and produce polished advisory work. When you come back to an account months later, the fact base is still there.</p><div class="audience-benefits"><span>Faster re-entry</span><span>More consistent delivery</span><span>Persistent client context</span></div></article>
+        <article class="audience-card"><span class="audience-label">Business leaders</span><h3>Keep an advisor close between the big moments.</h3><p>Use CAI for occasional strategic choices or regular planning questions, with the continuity to pick up where you left off.</p></article>
       </div>
-    </section>
+    </div></section>
 
-    <section class="section differentiation">
-      <div class="shell reveal">
-        <div class="section-heading narrow">
-          <p class="eyebrow">Why not just use a chatbot?</p>
-          <h2>Because the real advantage is not better prompting. It is continuity plus orchestration.</h2>
-        </div>
-        <div class="difference-grid">
-          <article class="difference-card">
-            <div class="icon-orbit" aria-hidden="true"></div>
-            <h3>Context that compounds</h3>
-            <p>CAI curates important business knowledge into durable structures rather than depending on a single conversation or an ever-growing chat history.</p>
-          </article>
-          <article class="difference-card">
-            <div class="icon-stack" aria-hidden="true"></div>
-            <h3>AI complexity handled for you</h3>
-            <p>Models, research tools and publishing systems can work behind the scenes. You focus on the business decision, not which AI tool to use or how to prompt it.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+    <section class="section beta-section" id="beta"><div class="shell beta-layout reveal">
+      <div><p class="eyebrow">Private beta</p><h2>We will work alongside you, not throw software over the wall.</h2><p class="lead">The beta is intentionally small. Selected participants will get hands-on help setting up CAI, bringing in initial business or client context, and using it on a real situation.</p></div>
+      <div class="beta-points"><div><strong>Hands-on onboarding</strong><span>We help establish the workspace and initial context.</span></div><div><strong>Real engagement support</strong><span>Bring a meaningful business question or client project, not a toy use case.</span></div><div><strong>Direct access to the team</strong><span>We help you get value while learning what needs to become simpler and better.</span></div></div>
+    </div></section>
 
-    <section class="section section-light audiences">
-      <div class="shell reveal">
-        <div class="section-heading">
-          <p class="eyebrow dark">Built for people making consequential decisions</p>
-          <h2>Use CAI directly — or bring it alongside your client work.</h2>
-        </div>
-        <div class="audience-grid">
-          <article class="audience-card">
-            <span class="audience-label">Business leaders</span>
-            <h3>A persistent advisor for a growing business.</h3>
-            <p>For CEOs, COOs, CFOs and other leaders who need support across both major strategic questions and recurring planning decisions — without starting from scratch every time.</p>
-          </article>
-          <article class="audience-card">
-            <span class="audience-label">Consulting professionals</span>
-            <h3>A consulting sidecar that keeps the client context alive.</h3>
-            <p>Use CAI to accelerate analysis and delivery, preserve context between engagements and re-enter a client situation without spending the first weeks rebuilding the fact base.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+    <section class="section section-light proof-section"><div class="shell proof-grid reveal"><div><p class="eyebrow dark">Already used in real advisory work</p><h2>Human judgment stays in the loop.</h2></div><div class="prose"><p>In a recent strategy engagement with a growing technology company expanding in the U.S., an experienced consulting team used CAI as a persistent sidecar to support analysis, structure the work and create decision-ready strategy materials.</p><p>The advisors led the engagement. CAI helped them move faster and preserve the context behind the work.</p></div></div></section>
 
-    <section class="section beta-section" id="beta">
-      <div class="shell beta-layout reveal">
-        <div>
-          <p class="eyebrow">Private beta</p>
-          <h2>This is a partnership, not a software handoff.</h2>
-          <p class="lead">We are intentionally keeping the beta small. Farsights will work closely with selected participants to get CAI set up, bring in initial business context and help put it to work on a real situation.</p>
-        </div>
-        <div class="beta-points">
-          <div>
-            <strong>Hands-on setup</strong>
-            <span>We help establish the workspace and initial context.</span>
-          </div>
-          <div>
-            <strong>Real-world use</strong>
-            <span>Use CAI on a meaningful business or client decision, not a toy example.</span>
-          </div>
-          <div>
-            <strong>Direct support</strong>
-            <span>Work with the people building CAI as you learn what it can do — and where it needs to improve.</span>
-          </div>
-        </div>
-      </div>
-    </section>
+    <section class="section about-section" id="about"><div class="shell split reveal"><div><p class="eyebrow">About Farsights.ai</p><h2>Built by people who have spent decades transforming businesses.</h2></div><div class="prose light-prose"><p>Farsights.ai develops AI-powered products and advisory capabilities for ambitious mid-market businesses and the professionals who serve them.</p><p>Our founders bring decades of experience across strategy, business transformation, digital technology and complex global consulting engagements.</p></div></div></section>
 
-    <section class="section section-light proof-section">
-      <div class="shell reveal">
-        <div class="section-heading narrow">
-          <p class="eyebrow dark">Already used in advisory work</p>
-          <h2>From business context to strategy — with the advisor still in the loop.</h2>
-          <p>In one recent engagement with a growing technology company expanding in the U.S., an experienced consulting team used CAI as a persistent sidecar to support analysis, structure the work and create decision-ready strategy materials. The human advisor led the engagement; CAI accelerated and preserved the context behind it.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section about-section" id="about">
-      <div class="shell split reveal">
-        <div>
-          <p class="eyebrow">About Farsights.ai</p>
-          <h2>Built by people who have spent decades transforming businesses.</h2>
-        </div>
-        <div class="prose light-prose">
-          <p>Farsights.ai develops AI-powered products and advisory capabilities for ambitious mid-market businesses and the professionals who serve them.</p>
-          <p>Our founders bring decades of experience across business strategy, transformation, digital technology and complex global consulting engagements. We combine that experience with modern AI to help organizations move faster without lowering the bar for judgment, rigor or trust.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section apply-section" id="apply">
-      <div class="shell apply-layout reveal">
-        <div>
-          <p class="eyebrow">Request private beta access</p>
-          <h2>Bring us a real business question.</h2>
-          <p class="lead">We are selecting a small group of business leaders and consulting professionals for the next CAI beta cohort.</p>
-          <p class="form-note">Submitting this form is a request, not a guarantee of participation. We will contact you if there is a fit for an upcoming beta slot.</p>
-        </div>
-
-        <form class="beta-form" id="beta-form" novalidate>
-          <div class="form-grid two-col">
-            <label>
-              <span>Name</span>
-              <input name="name" type="text" autocomplete="name" required />
-            </label>
-            <label>
-              <span>Email</span>
-              <input name="email" type="email" autocomplete="email" required />
-            </label>
-          </div>
-          <div class="form-grid two-col">
-            <label>
-              <span>Company</span>
-              <input name="company" type="text" autocomplete="organization" required />
-            </label>
-            <label>
-              <span>Role</span>
-              <input name="role" type="text" autocomplete="organization-title" required />
-            </label>
-          </div>
-          <label>
-            <span>What would you like to use CAI for?</span>
-            <textarea name="use_case" rows="5" placeholder="A business decision, a client engagement, an ongoing advisory need…" required></textarea>
-          </label>
-          <label>
-            <span>Company website <em>optional</em></span>
-            <input name="website" type="url" autocomplete="url" placeholder="https://" />
-          </label>
-          <label class="checkbox-row">
-            <input name="conversation" type="checkbox" />
-            <span>I would also like to talk with Farsights about how AI could support my business or consulting practice.</span>
-          </label>
-          <button class="button button-primary button-submit" type="submit">Request beta access</button>
-          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
-        </form>
-      </div>
-    </section>
+    <section class="section apply-section" id="apply"><div class="shell apply-layout reveal">
+      <div><p class="eyebrow">Request private beta access</p><h2>Bring us a real business question.</h2><p class="lead">We are selecting a small group of consulting professionals and business leaders for the next CAI beta cohort.</p><p class="form-note">Submitting a request does not guarantee participation. We will contact you if there is a fit for an upcoming beta slot.</p></div>
+      <form class="beta-form" id="beta-form" novalidate><div class="form-grid two-col"><label><span>Name</span><input name="name" type="text" autocomplete="name" required /></label><label><span>Email</span><input name="email" type="email" autocomplete="email" required /></label></div><div class="form-grid two-col"><label><span>Company</span><input name="company" type="text" autocomplete="organization" required /></label><label><span>Role</span><input name="role" type="text" autocomplete="organization-title" required /></label></div><label><span>What would you like to use CAI for?</span><textarea name="use_case" rows="5" placeholder="A client engagement, a strategic decision, an ongoing advisory need…" required></textarea></label><label><span>Company website <em>optional</em></span><input name="website" type="url" autocomplete="url" placeholder="https://" /></label><label class="checkbox-row"><input name="conversation" type="checkbox" /><span>I would also like to talk with Farsights about applying AI in my consulting practice or business.</span></label><button class="button button-primary button-submit" type="submit">Request beta access</button><div class="form-status" id="form-status" role="status" aria-live="polite"></div></form>
+    </div></section>
   </main>
 
-  <footer class="site-footer">
-    <div class="shell footer-inner">
-      <div class="brand footer-brand"><span class="brand-mark" aria-hidden="true"></span><span>farsights.ai</span></div>
-      <p>AI-powered products and advisory for businesses moving into the AI era.</p>
-      <a href="#top">Back to top ↑</a>
-    </div>
-  </footer>
-
+  <footer class="site-footer"><div class="shell footer-inner"><div class="brand footer-brand"><span class="brand-mark" aria-hidden="true"></span><span>farsights.ai</span></div><p>AI-powered products and advisory for businesses moving into the AI era.</p><a href="#top">Back to top ↑</a></div></footer>
+  <dialog class="lightbox" id="lightbox" aria-label="Sample CAI output"><div class="lightbox-shell"><button class="lightbox-close" type="button" aria-label="Close sample output">×</button><div class="lightbox-title" id="lightbox-title"></div><img id="lightbox-image" alt="Expanded CAI sample output" /></div></dialog>
   <script src="./script.js"></script>
 </body>
 </html>
